@@ -1,9 +1,9 @@
 import React from 'react';
 import { Pressable, View, Text, ScrollView} from 'react-native';
-import { styles } from './styles';
+import { styles } from '../../styles';
 
 
-function ToDoList({ tasks }) {
+export default function ToDoList({ tasks }) {
   return (
     <ScrollView>
       {tasks.map((task, index) =>(
@@ -16,5 +16,3 @@ function ToDoList({ tasks }) {
     </ScrollView>
   );
 }
-
-export default ToDoList;

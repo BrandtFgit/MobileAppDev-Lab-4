@@ -4,10 +4,9 @@ import
     View, 
     TextInput, 
     Button, 
-    StyleSheet,
     Alert
 } from 'react-native';
-import { styles } from './styles';
+import { styles } from '../../styles';
 import { useState } from 'react';
 
 
